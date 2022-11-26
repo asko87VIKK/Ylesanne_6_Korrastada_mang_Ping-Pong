@@ -1,5 +1,4 @@
-import pygame  # impordime pygame mooduli
-import random  # impordime random mooduli
+import pygame, random  # impordime pygame ja random mooduli
 
 pygame.init()  # käivitame pygame
 
