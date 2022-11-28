@@ -1,4 +1,5 @@
-import pygame, random, time  # impordime pygame ja random mooduli
+import pygame  # impordime pygame mooduli
+import random  # impordime random mooduli
 
 pygame.init()  # käivitame pygame
 
@@ -71,7 +72,7 @@ while True:  # nii kaua, kui tsükkel on tõene,
 
     # palli liikumine
     if pall.colliderect(alus) and pall_kiirus_Y < 0:  # Kui palli ja aluse vahel toimub kokkupõrge ja palli Y suund on väiksem kui 0
-        skoor +=1  # lisame muutujale skoor +1
+        skoor += 1  # lisame muutujale skoor +1
         pall_kiirus_Y = -pall_kiirus_Y  # muudame palli suunda (muudame palli y kiiruse/kordinaadi muutuja vastandarvuks)
     if pall_X > ekraanX - pall_pilt.get_rect().width or pall_X < 0:  # kui palli x kordinaat on suurem kui ekraani oma ja väiksem kui 0, siis
         pall_kiirus_X = -pall_kiirus_X  # muudame palli suunda (muudame palli x kiiruse/kordinaadi muutuja vastand arvuks)
