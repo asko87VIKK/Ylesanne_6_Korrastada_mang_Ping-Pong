@@ -1,3 +1,4 @@
+# Asko Aru
 import pygame  # impordime pygame mooduli
 import random  # impordime random mooduli
 
