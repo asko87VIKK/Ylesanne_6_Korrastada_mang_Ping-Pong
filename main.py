@@ -1,4 +1,7 @@
 # Asko Aru
+
+# Pildid peavad asuma kaustas: pildi_failid
+
 import pygame  # impordime pygame mooduli
 import random  # impordime random mooduli
 
